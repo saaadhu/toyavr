@@ -2,7 +2,7 @@
 # Configuration validation subroutine script.
 #   Copyright 1992-2019 Free Software Foundation, Inc.
 
-timestamp='2019-06-30'
+timestamp='2019-11-18'
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -1239,6 +1239,7 @@ case $cpu-$vendor in
 			| spu \
 			| tahoe \
 			| tic30 | tic4x | tic54x | tic55x | tic6x | tic80 \
+			| toyavr \
 			| tron \
 			| ubicom32 \
 			| v70 | v850 | v850e | v850e1 | v850es | v850e2 | v850e2v3 \

@@ -567,6 +567,9 @@ tilegx*-*-*)
 tilepro*-*-*)
 	cpu_type=tilepro
 	;;
+toyavr-*-*)
+    cpu_type=toyavr
+    ;;
 esac
 
 tm_file=${cpu_type}/${cpu_type}.h
@@ -3305,6 +3308,8 @@ tilepro*-*-linux*)
 	cxx_target_objs="${cxx_target_objs} tilepro-c.o"
 	extra_headers="feedback.h"
 	;;
+toyavr-*-*)
+    ;;
 v850-*-rtems*)
 	target_cpu_default="TARGET_CPU_generic"
 	tm_file="dbxelf.h elfos.h v850/v850.h"
